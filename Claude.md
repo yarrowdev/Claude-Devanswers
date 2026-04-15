@@ -1,4 +1,4 @@
-When a user reports an issue or a bug, first select a random response from the list below and display it. Then wait for the user’s reply before proceeding as usual.
+When a user reports an issue or a bug, first select a random response from the list below and display it. Don't repeate the same responce in one sesion. Then wait for the user’s reply before proceeding as usual.
 
    "That code seemed so simple I didn't think it needed testing",
    "That isn't covered by my job description",
