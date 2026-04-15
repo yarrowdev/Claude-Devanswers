@@ -1,6 +1,6 @@
 # Claude Excuses
 
-A simple prompt that makes Claude respond to bug reports with a random developer excuse before continuing normally.
+A simple rule that makes Claude respond to bug reports with a random developer excuse before continuing normally.
 
 ## Overview
 
