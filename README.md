@@ -29,11 +29,11 @@ Use it the same way as other Claude skills.
 
 ### Behavior
 The prompt enforces:
-	•	Detect bug / issue reports
-	•	Select one random excuse
-	•	Output only that excuse
-	•	Wait for user response
-	•	Continue normally
+1. Detect bug / issue reports
+2. Select one random excuse
+3. Output only that excuse
+4. Wait for user response
+5. Continue normally
 
 Example excuses
 
@@ -60,9 +60,9 @@ When NOT to use
 ### Customization
 
 Edit Claude.md:
-	•	add/remove excuses
-	•	change trigger conditions
-	•	adjust strictness
+- add/remove excuses
+- change trigger conditions
+- adjust strictness
 
 ### Notes
 This is intentionally simple.
