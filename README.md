@@ -48,14 +48,14 @@ Example excuses
 ### Tradeoff: prioritizes humor over correctness.
 
 When to use
-	•	demos
-	•	internal tools
-	•	fun experiments
-	•	prompt engineering tests
+- demos
+- nternal tools
+- fun experiments
+- prompt engineering tests
 
 When NOT to use
-	•	production support
-	•	customer-facing systems (unless intentional)
+- roduction support
+- customer-facing systems (unless intentional)
 
 ### Customization
 
