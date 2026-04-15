@@ -4,7 +4,7 @@ A simple rule that makes Claude respond to bug reports with a random developer e
 
 ## Overview
 
-This repository contains a single prompt file (`Claude.md`) that modifies Claude’s behavior:
+This repository contains `Claude.md` that modifies Claude’s behavior:
 
 - When a user reports a bug → Claude replies with a random excuse
 - Then waits for the next user message
@@ -18,21 +18,14 @@ Use it the same way as other Claude skills.
 
 ### Option 1 — Copy
 
-1. Open `Claude.md`
-2. Copy the contents
-3. Paste into:
-   - Claude system prompt
+1. Copy `Claude.md` to your new project Directory
+
+### Option 2 — Paste in exsisting project
+1. Copy the contents of `Claude.md`
+2. Paste into:
+   - Current `Claude.md`
    - Custom instructions
    - Your AI wrapper config
-
-### Option 2 — Programmatic
-
-```js
-import fs from "fs";
-
-const prompt = fs.readFileSync("./Claude.md", "utf-8");
-
-// pass as system prompt to Claude
 
 Usage
 
@@ -54,8 +47,7 @@ User: No seriously, it's broken
 
 Now Claude behaves normally.
 
-Behavior
-
+###Behavior
 The prompt enforces:
 	•	Detect bug / issue reports
 	•	Select one random excuse
@@ -72,14 +64,8 @@ Example excuses
 
 (Full list in Claude.md)
 
-Design
 
-Inspired by minimal prompt engineering patterns:
-	•	single file
-	•	deterministic behavior rule
-	•	no external dependencies
-
-Tradeoff: prioritizes humor over correctness.
+###Tradeoff: prioritizes humor over correctness.
 
 When to use
 	•	demos
@@ -91,15 +77,13 @@ When NOT to use
 	•	production support
 	•	customer-facing systems (unless intentional)
 
-Customization
+###Customization
 
 Edit Claude.md:
 	•	add/remove excuses
 	•	change trigger conditions
 	•	adjust strictness
 
-Notes
-
+###Notes
 This is intentionally simple.
-
 If it feels too dumb — it’s working as intended.
