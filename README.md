@@ -27,27 +27,7 @@ Use it the same way as other Claude skills.
    - Custom instructions
    - Your AI wrapper config
 
-Usage
-
-Just talk to Claude normally.
-
-If the user reports a bug:
-
-User: The app crashes when I click export
-
-Claude responds:
-
-It worked yesterday
-
-Then waits.
-
-Next message:
-
-User: No seriously, it's broken
-
-Now Claude behaves normally.
-
-###Behavior
+### Behavior
 The prompt enforces:
 	•	Detect bug / issue reports
 	•	Select one random excuse
@@ -65,7 +45,7 @@ Example excuses
 (Full list in Claude.md)
 
 
-###Tradeoff: prioritizes humor over correctness.
+### Tradeoff: prioritizes humor over correctness.
 
 When to use
 	•	demos
@@ -77,13 +57,13 @@ When NOT to use
 	•	production support
 	•	customer-facing systems (unless intentional)
 
-###Customization
+### Customization
 
 Edit Claude.md:
 	•	add/remove excuses
 	•	change trigger conditions
 	•	adjust strictness
 
-###Notes
+### Notes
 This is intentionally simple.
 If it feels too dumb — it’s working as intended.
